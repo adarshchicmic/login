@@ -11,7 +11,7 @@ export default class Checkbox extends Component {
     return (
         <View style = {styles.rememFor}>
             <CheckBox
-                style={{flex: 1, }}
+                style={{flex: 1,marginLeft: 10 , color: 'blue'}}
                 onClick={()=>{
                     this.setState({
                     isChecked:!this.state.isChecked

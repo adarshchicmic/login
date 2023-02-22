@@ -9,7 +9,7 @@ class Login extends Component{
             <View >
             <View style = {styles.container1}> 
                 <View style={styles.loginField}>
-                     <Text style = {{fontSize: 30, marginRight: 0 }}> + </Text>
+                     <Text style = {{fontSize: 20, marginRight: 0 }}> + </Text>
                     <Text style ={styles.first}> Login </Text>
                 </View>
                 <Text style = {styles.cutSign}>X</Text>

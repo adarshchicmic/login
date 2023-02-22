@@ -11,28 +11,24 @@ import {
 } from "react-native";
 import styles from './styles';
 import Login from './src/Login';
-import Button from './src/Button';
 import Input from './src/Input';
-import Checkbox from './src/CheckBox'
+
 class App extends Component{
   constructor(props){
     super(props);
     this.state = {email: '', password: ''}
   }
-  getEmail = (value) => {
-    console.log(value);
-  };
-  
-  getPassword = (value) => {
-    console.log(password);
-  };
+  handleLogin = (email, password) => {
+    console.log("Email:", email);
+    console.log("Password:", password);
+  }
+ 
   render(){
     return(
       <SafeAreaView style = {styles.container}>
         <Login  />
-        <Input email = {getEmail} password = {getPassword}/>
-        <Checkbox />
-        <Button />
+        <Input onLogin = {this.handleLogin}/>
+        
         {/* <Text style={styles.test(10)}>test styling</Text> */}
       </SafeAreaView>
     )
