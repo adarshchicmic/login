@@ -7,14 +7,18 @@ const styles = StyleSheet.create({
       // marginLeft: 30,
       justifyContent:"center",
       alignItems:"center",
-      marginLeft: '3%',
+      marginLeft: '2%',
       
+    },
+    Focus: {
+      borderColor : 'blue'
     },
     InputContainer: {
         width: '1',
     },
     loginField:{
       flexDirection:"row",
+      marginBottom: '5%',
     },
     /* test : function(param:number){
       return {
@@ -25,32 +29,33 @@ const styles = StyleSheet.create({
       flexDirection: "row",
       justifyContent:"space-between",
       
-      width: 330,
+      width: 370,
     },
     first: {
-      fontSize: 40,
+      fontSize: 30,
       fontWeight: 'bold',
       flexDirection: 'row'
     },
     second: {
       color: '#bcbcbc',
       fontWeight: 'bold',
+      fontSize: 15,
      
     },
     third: {
       fontSize: 20,
       fontWeight: 'bold',
-      
+      marginLeft: "1%",
       alignSelf: 'flex-start'
       
     },
     inputWala:{
       height: 60,
-      width: 350,
+      width: 370,
       margin: 10,
       borderWidth: 1,
       padding: 20,
-      borderColor: 'blue',
+      borderColor: 'gray',
       borderRadius: 10,
       
     },
@@ -63,7 +68,7 @@ const styles = StyleSheet.create({
     button: {
       height: 50,
       marginBottom: 10,
-      width: 350,
+      width: 380,
       alignItems: 'center',
       backgroundColor: '#2196F3',
       borderRadius: 10,
@@ -77,19 +82,21 @@ const styles = StyleSheet.create({
       
     }, 
     rememberMe : {
-      paddingRight: 120,
-      color: '#bcbcbc',
+      paddingRight:110,
       fontWeight: 'bold',
+      alignSelf: 'center',
     },
     forgotMe: {
-      
+      alignSelf: 'center',
+      paddingRight: 10,
       color: '#bcbcbc',
       fontWeight: 'bold',
     },
     cutSign :{
       flexDirection: 'row',
       fontSize: 20,
-      alignSelf: 'flex-end',
+      alignSelf: 'flex-start',
+      marginRight: 20,
     }
   })
 
