@@ -1,5 +1,5 @@
-import { Text, View } from 'react-native'
-import React, { Component } from 'react'
+import {Text, View} from 'react-native';
+import React, {Component} from 'react';
 
 class Credential extends Component {
   render() {
@@ -7,7 +7,7 @@ class Credential extends Component {
       <View>
         <Text> </Text>
       </View>
-    )
+    );
   }
 }
 
