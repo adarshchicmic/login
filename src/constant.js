@@ -8,4 +8,6 @@ export const constant = {
   signUp: 'SignUp',
   logOut: 'Logout',
   none: 'none',
+  welcome: 'Welcome',
+  enterAllField: '* please enter all fields',
 };

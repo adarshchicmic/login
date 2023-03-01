@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 import {View, TextInput} from 'react-native';
 
 export default function InputBox({
-  PlaceHolder = '',
-  Style = {},
+  PlaceHolder,
+  Style,
   Value,
-  KeyBoardChange = '',
-  SecureTextEntry = false,
-  AutoCapitalize = '',
+  KeyBoardChange,
+  SecureTextEntry,
+  AutoCapitalize,
   testFunction = () => {},
 }) {
   const [email, setEmail] = useState('');

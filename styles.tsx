@@ -97,6 +97,38 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start',
     marginRight: 20,
   },
+  redColor: {
+    color: 'red',
+  },
+  imageEye: {
+    height: '1%',
+    width: '3%',
+  },
+  containerForInputEye: {
+    flex: 1,
+    flexDirection: 'row',
+    marginTop: 10,
+  },
+
+  // inputFlex: {
+  //   alignSelf: 'stretch',
+  //   width: '100%',
+  //   padding: 0,
+  //   backgroundColor: '#ddd',
+  // },
+  // visibilityBtn: {
+  //   height: 30,
+  //   width: 30,
+  //   padding: 0,
+  //   marginTop: 5,
+  // },
+  inputFieldEye: {
+    width: '90%',
+    height: 100,
+    borderWidth: 2,
+    borderColor: 'black',
+    borderRadius: 10,
+  },
 });
 
 export default styles;
